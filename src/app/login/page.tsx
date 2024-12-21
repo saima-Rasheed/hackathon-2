@@ -19,7 +19,7 @@ const Login = () => {
             </form>
              <form className='p-4 text-gray-700 '>
               <div className='flex justify-center items-center space-x-2 mt-5'> 
-            <input type='checkbox'id='keepMeSignIn' className='h-4 w-4  text-gray-500'/> <div className='text-large'> keep me signed in </div> <div className='absolute right-40'> Forgotten your password? </div>
+            <input type='checkbox'id='keepMeSignIn' className='h-4 w-4  text-gray-500'/> <div className='text-large'> keep me signed in </div> <div className='absolute right-1'> Forgotten your password? </div>
             </div>
             <div className='flex flex-col justify-end items-center mt-8'>
               <div>By logging in. you agree to Nike's <a className='underline'>Policy </a>and<a className='underline'>Term of Use</a></div>

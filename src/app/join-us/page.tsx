@@ -37,12 +37,12 @@ const page = () => {
                 
                 </div>
                 <div className='flex justify-center items-center space-x-2 mt-5'> 
-            <input type='checkbox'id='keepMeSignIn' className='h-4 w-4  text-gray-500'/> <div className='text-large text-gray-500'> Sign up for e-mails to getupdates from Nike on </div> <div className='text-gray-500'>products ,offers and your Member benefits</div>
+            <input type='checkbox'id='keepMeSignIn' className='h-4 w-4  text-gray-500'/> <div className='text-sm md:text-md lg:text-lg text-gray-500'> Sign up for e-mails to getupdates from Nike on </div> <div className='text-gray-500 text-sm md:text-md lg:text-lg'>products ,offers and your Member benefits</div>
             </div>
             <div className='flex flex-col justify-end items-center mt-8'>
-              <div className='text-gray-500'>By logging in. you agree to Nike's <a className='underline'>Policy </a>and<a className='underline'>Term of Use</a></div>
-             <button className='bg-black text-gray-400 h-10 w-80 mt-8'>Sign In</button>
-             <p className='mt-5 text-gray-500'>Already a Member <a className='underline'>Sign In </a></p>
+              <div className='text-gray-500'>By logging in. you agree to Nike's <a href='#' className='underline'>Policy </a>and<a className='underline'>Term of Use</a></div>
+             <button className='bg-black text-gray-400 h-10 w-80 mt-2 md:mt-4 lg:mt-8'>Sign In</button>
+             <p className='mt-5 text-gray-500'>Already a Member <a href='#' className='underline'>Sign In </a></p>
             </div>
             </form>
         
