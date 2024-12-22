@@ -12,7 +12,7 @@ const page = () => {
     
     <div>
         <div className='flex'>
-        <div className='text-xl font-semibold text-gray-800 h-auto w-9/12 bg-red-400'>
+        <div className='text-xl font-semibold text-gray-800 h-auto w-9/12 bg-white'>
         <div className='flex  flex-col items-center'>
             <h2 className='mt-5'> GET HELP</h2>
             <div className='relative'>
@@ -52,7 +52,7 @@ const page = () => {
            </div>
 
             
-            <div className='bg-yellow-300 h-full w-3/12 flex flex-col items-center'>
+            <div className='bg-white h-full w-3/12 flex flex-col items-center'>
             <h2 className='mt-2 md:mt-3 lg:mt-5 text-gray-800 text-md lg:text-lg font-semibold'>Contact Us</h2>
             <div className='mt-2 md:mt-3 lg:mt-5'><FaMobileAlt className='text-3xl'/></div>
             <p className='text-gray-800 text-sm  lg:text-md mt-2 md:mt-3 lg:mt-5'>000 8009190566</p>

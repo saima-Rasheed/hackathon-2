@@ -76,15 +76,16 @@ const page = () => {
         <h2 className='text-gray-500 '>Order Summary</h2>
         <div className='grid grid-cols-2 text-sm'>
          
-        <p> SubTotal</p>     
-        <p> 20 890.00</p>
+        <p  className='text-gray-800 text-sm pl-5'>Subtotal</p><p className='text-gray-800 text-sm flex'><span><LuIndianRupee /></span><span>20 890.00</span></p>     
+        
         
         <p> Delivery/Shipping</p> 
         <p className='pl-10'>Free</p>
         <hr />
         <br/>
-        <p>Total</p>
-        <p>20 890.00</p>
+        
+         <p className='text-gray-800 text-sm pl-5 pt-5'>Total</p><p className='text-gray-800 text-sm flex pt-5'><span><LuIndianRupee /></span><span>20 890.00</span></p>
+        
         </div>
         <hr />
         <br />
