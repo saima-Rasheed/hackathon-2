@@ -23,7 +23,7 @@ const page = () => {
       </div>
       <div>
       <p className='font-semibold text-gray-800 text-sm lg:text-md pt-1 lg:ml-16'> Nike Dry FIT ADV TechKnit Ultra</p>
-      <p className='pt-2 text-sm lg:ml-16'>Men's short-sleeve Running Top</p>
+      <p className='pt-2 text-sm lg:ml-16'>Men&apos;s short-sleeve Running Top</p>
       <p className='pt-2 text-sm lg:ml-16'>Ashen Slate/Cobalt Bliss</p>
       <p className='flex pt-2 text-sm lg:ml-16'><p>Size L</p><p>Quantity 1</p></p>
 
@@ -65,7 +65,7 @@ const page = () => {
       </div>
       <div>
       <p className='font-semibold text-gray-800 text-sm lg:text-md pt-28 lg:ml-16'> Nike Air Max 97 SE </p>
-      <p className='pt-2 text-sm  lg:ml-16'>Men's shoes</p>
+      <p className='pt-2 text-sm  lg:ml-16'>Men&apos;s shoes</p>
       <p className='pt-2 text-sm  lg:ml-16'>Flat Pewter/Light Bone/Black/White</p>
       <p className='flex pt-2 text-sm  lg:ml-16'><p>Size 8</p><p>Quantity 1</p></p>
 

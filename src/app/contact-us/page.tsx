@@ -23,8 +23,8 @@ const page = () => {
             <div>
             <h2 className='text-gray-800 text-xl mt-5'>What Payment Options Can I Use on Nike Orders? </h2>
             <p className='text-gray-500 text-sm'>We want to make buying your favourite shoes and gear online fast and easy,and we accept the following payment options : <br/>
-            Visa ,Mastercard,Diners Club, Discover,American Express,Visa Electron,Maestro<br/> If you enter your PAN information at checkout,you w'll be able for your order with PayTM or a local credit or debit card.<br/>
-            Apple Pay<br/> <a href='#' className=' text-gray-800 underline ml-2 mr-2'>Nike Members</a>can store multiple debit or credit card in their profile for faster checkout.If you're not already a Member<a href='#' className='text-gray-800 underline ml-2 mr-2'>join us</a>today</p></div></div>
+            Visa ,Mastercard,Diners Club, Discover,American Express,Visa Electron,Maestro<br/> If you enter your PAN information at checkout,you w&apos;ll be able for your order with PayTM or a local credit or debit card.<br/>
+            Apple Pay<br/> <a href='#' className=' text-gray-800 underline ml-2 mr-2'>Nike Members</a>can store multiple debit or credit card in their profile for faster checkout.If you&apos;re not already a Member<a href='#' className='text-gray-800 underline ml-2 mr-2'>join us</a>today</p></div></div>
              
              <div className='flex justify-start gap-4 items-start mt-5'> <button className='bg-black text-gray-300 h-12 rounded-full w-20 sm:w-20 sm:text-sm md:w-28 text-sm max-lg:w-36 text-md'>JOIN US</button>
              <button className='bg-black text-gray-300 h-12 rounded-full w-20 sm:w-20 sm:text-sm md:w-28 text-sm max-lg:w-36 text-md '>SHOP NIKE</button>
@@ -33,11 +33,11 @@ const page = () => {
              <p className='text-xl font-semibold text-gray-800 mt-5 '>Does my card need international purchases enabled?</p>
              <p  className='text-gray-500 text-sm'>Yes, we recommend asking your bank to enable international purchases on your card.You will be notified at checkout<br/>if internation purchases needs to  be enabled<br/>Please note,some banks may charge a small transaction fee for international orders</p>
              <h2 className='text-xl font-semibold text-gray-800 mt-5 '>Can I pay for my order with multiple method?</h2>
-             <p  className='text-gray-500 text-sm'>No, payment for Nike orders can't be split between multilple payment methods.</p>
+             <p  className='text-gray-500 text-sm'>No, payment for Nike orders can&apos;t be split between multilple payment methods.</p>
              <h2 className='text-xl font-semibold text-gray-800 mt-5 '>What payment method is acceptd for SNKRS orders?</h2>
              <p  className='text-gray-500 text-sm'>you can use any accepted credit card tp pay for your SNKRS order</p>
-             <h2 className='text-xl font-semibold text-gray-800 mt-5 '>Why don't I see Apple Pay as an option?</h2>
-             <p  className='text-gray-500 text-sm'>To see Apple Pay as an option in the Nike App or on Nike.com You w'll need to use a compatible Apple device running the latest<br/>OS 
+             <h2 className='text-xl font-semibold text-gray-800 mt-5 '>Why don&apos;t I see Apple Pay as an option?</h2>
+             <p  className='text-gray-500 text-sm'>To see Apple Pay as an option in the Nike App or on Nike.com You w&apos;ll need to use a compatible Apple device running the latest<br/>OS 
              ,be signed in to your iCloud account and have a supported card in your wallet.Additionally, you will need to use Safari to use<br/>Apple Pay on Nike.com</p>
               <p className='mt-5 text-sm md:text-sm lg:text-md'>Was this answer helpful?</p>
               <div className='flex'>
@@ -64,7 +64,7 @@ const page = () => {
              <p className='text-gray-800 text-sm md:text-sm lg:text-md mt-2 md:mt-3 lg:mt-5'>24 hours a day</p>
              <p className='text-gray-800 text-sm md:text-sm lg:text-md'>7 Days a week </p>
               <div className='mt-2 md:mt-3 lg:mt-5'> <MdEmail className='text-3xl'/></div>
-              <p className='text-gray-800text-sm md:text-sm lg:text-md mt-2 md:mt-3 lg:mt-5 '>We'll reply within</p>
+              <p className='text-gray-800text-sm md:text-sm lg:text-md mt-2 md:mt-3 lg:mt-5 '>We&apos;ll reply within</p>
               <p className='text-gray-800 text-sm md:text-sm lg:text-md'>five working days</p>
               <div><FaLocationDot className='text-3xl mt-2 md:mt-3 lg:mt-5'/></div>
               

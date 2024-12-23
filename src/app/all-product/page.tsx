@@ -48,7 +48,7 @@ const page = () => {
             <hr/>
             <h2 className='font-bold text-xl text-gray-800 mt-10 ml-2 '>Shop by Price</h2>
           <div className='flex justify-start items-center  space-x-0 sm:space-x-1 md:space-x-1 lg:space-x-2 mt-5'> 
-            <input type='checkbox'id='men'className='h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 lg:h-7 lg:w-7  text-gray-500 '/> <span className='flex justify-center items-center text--gray-800'><LuIndianRupee /></span><span className='text-sm sm:text-sm md:text-md lg:text-lg  text-gray-800 ml-2'>2500.00</span>
+            <input type='checkbox'id='men'className='h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 lg:h-7 lg:w-7  text-gray-500 '/> <span className='flex justify-center items-center text--gray-800'><LuIndianRupee /></span><span className='text-sm sm:text-sm md:text-md lg:text-lg  text-gray-800 ml-2'>2 500.00</span>
             </div>
             <div className='flex justify-start items-center  space-x-0 mt-5  lg:space-x-2'> 
             <input type='checkbox'id='women'className='h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 lg:h-7 lg:w-7  text-gray-500 '/> <span className='text-gray-800 flex justify-center items-center'><LuIndianRupee /></span><span className='text-sm sm:text-sm md:text-md lg:text-lg  text-gray-800 ml-2'>2 501.00</span>
@@ -76,8 +76,8 @@ const page = () => {
             />
           
             <p  className='text-red-600'>Just In</p>
-            <p className='text-gray-500'>Nike Air Force 1 Mid'07</p>
-            <p className='text-gray-500'>Men's Shoes</p>
+            <p className='text-gray-500'>Nike Air Force 1 Mid&apos;07</p>
+            <p className='text-gray-500'>Men&apos;s Shoes</p>
             <p className='text-gray-500'>1 Colour</p>
              <p className='flex'><span className='text-gray-800 '>MRP:</span> <span className='ml-1 mt-1'><LuIndianRupee /></span><span className='text-gray-800 ml-1'>10 795.00</span></p>
             </div>
@@ -90,7 +90,7 @@ const page = () => {
           
             <p  className='text-red-600'>Just In</p>
             <p className='text-gray-500'>Nike Court Vision Next Low Nature</p>
-            <p className='text-gray-500'>Men's Shoes</p>
+            <p className='text-gray-500'>Men&apos;s Shoes</p>
             <p className='text-gray-500'>1 Colour</p>
              <p className='flex'><span className='text-gray-800 '>MRP:</span> <span className='ml-1 mt-1'><LuIndianRupee /></span><span className='text-gray-800 ml-1'>4 995.00 </span></p>
                 </div>
@@ -103,7 +103,7 @@ const page = () => {
           
             <p  className='text-red-600'>Just In</p>
             <p className='text-gray-500'>Nike Air Force 1 PLT.AF.ORM</p>
-            <p className='text-gray-500'>Women's Shoes</p>
+            <p className='text-gray-500'>Women&apos;s Shoes</p>
             <p className='text-gray-500'>1 Colour</p>
              <p className='flex'><span className='text-gray-800 '>MRP:</span> <span className='ml-1 mt-1'><LuIndianRupee /></span><span className='text-gray-800 ml-1'>8 695.00 </span></p>
             </div>
@@ -116,7 +116,7 @@ const page = () => {
           
             <p  className='text-red-600'>Just In</p>
             <p className='text-gray-500'>Nike Air Force 1 React</p>
-            <p className='text-gray-500'>Men's Shoes</p>
+            <p className='text-gray-500'>Men&apos;s Shoes</p>
             <p className='text-gray-500'>1 Colour</p>
              <p className='flex'><span className='text-gray-800 '>MRP:</span> <span className='ml-1 mt-1'><LuIndianRupee /></span><span className='text-gray-800 ml-1'>13 295.00 </span></p>
              </div>
@@ -129,7 +129,7 @@ const page = () => {
           
             <p  className='text-red-600'>Promo Exculsion</p>
             <p className='text-gray-500'>Air jordan 1 Elevate Low</p>
-            <p className='text-gray-500'>Women's Shoes</p>
+            <p className='text-gray-500'>Women&apos;s Shoes</p>
             <p className='text-gray-500'>1 Colour</p>
              <p className='flex'><span className='text-gray-800 '>MRP:</span> <span className='ml-1 mt-1'><LuIndianRupee /></span><span className='text-gray-800 ml-1'>11 895.00 </span></p>
 
@@ -144,7 +144,7 @@ const page = () => {
           
             <p  className='text-red-600'>Just In</p>
             <p className='text-gray-500'>Nike Standard Issue</p>
-            <p className='text-gray-500'>Women's Basketball Jursey</p>
+            <p className='text-gray-500'>Women&apos;s Basketball Jursey</p>
             <p className='text-gray-500'>1 Colour</p>
              <p className='flex'><span className='text-gray-800 '>MRP:</span> <span className='ml-1 mt-1'><LuIndianRupee /></span><span className='text-gray-800 ml-1'>2 895.00 </span></p>
 
@@ -158,7 +158,7 @@ const page = () => {
           
             <p  className='text-red-600'>Promo Exculsion</p>
             <p className='text-gray-500'>Nike Dunk Low Retro SE</p>
-            <p className='text-gray-500'>Men's Shoes</p>
+            <p className='text-gray-500'>Men&apos;s Shoes</p>
             <p className='text-gray-500'>1 Colour</p>
              <p className='flex'><span className='text-gray-800 '>MRP:</span> <span className='ml-1 mt-1'><LuIndianRupee /></span><span className='text-gray-800 ml-1'>9 695.00 </span></p>
 
@@ -172,7 +172,7 @@ const page = () => {
           
             <p  className='text-red-600'>Sustainable Material</p>
             <p className='text-gray-500'>Nike Dry FIT UV Hyverse</p>
-            <p className='text-gray-500'>Men's Short-sleeves Graphic Fitness Top</p>
+            <p className='text-gray-500'>Men&apos;s Short-sleeves Graphic Fitness Top</p>
             <p className='text-gray-500'>1 Colour</p>
              <p className='flex'><span className='text-gray-800 '>MRP:</span> <span className='ml-1 mt-1'><LuIndianRupee /></span><span className='text-gray-800 ml-1'>2 495.00 </span></p>
 
@@ -186,7 +186,7 @@ const page = () => {
           
             <p  className='text-red-600'>Just In</p>
             <p className='text-gray-500'>Nike Court Vision Low</p>
-            <p className='text-gray-500'>Men's Shoes</p>
+            <p className='text-gray-500'>Men&apos;s Shoes</p>
             <p className='text-gray-500'>1 Colour</p>
              <p className='flex'><span className='text-gray-800 '>MRP:</span> <span className='ml-1 mt-1'><LuIndianRupee /></span><span className='text-gray-800 ml-1'>5 695.00 </span></p>
 
@@ -200,7 +200,7 @@ const page = () => {
           
             <p  className='text-red-600'>Just In</p>
             <p className='text-gray-500'>Nike Dry FIT Ready</p>
-            <p className='text-gray-500'>Men's Short-sleeves Top</p>
+            <p className='text-gray-500'>Men&apos;s Short-sleeves Top</p>
             <p className='text-gray-500'>3 Colour</p>
              <p className='flex'><span className='text-gray-800 '>MRP:</span> <span className='ml-1 mt-1'><LuIndianRupee /></span><span className='text-gray-800 ml-1'>2 495.00 </span></p>
 
@@ -214,7 +214,7 @@ const page = () => {
           
             <p  className='text-red-600'>Just In</p>
             <p className='text-gray-500'>Nike One Leak Protection:Period</p>
-            <p className='text-gray-500'>Women's Mid Rise 18cm(approx) Biker shorts</p>
+            <p className='text-gray-500'>Women&apos;s Mid Rise 18cm(approx) Biker shorts</p>
             <p className='text-gray-500'>2 Colour</p>
              <p className='flex'><span className='text-gray-800 '>MRP:</span> <span className='ml-1 mt-1'><LuIndianRupee /></span><span className='text-gray-800 ml-1'>3 395.00 </span></p>
 
@@ -228,7 +228,7 @@ const page = () => {
           
             <p  className='text-red-600'>Just In</p>
             <p className='text-gray-500'>Nike Air Force 1 LV8 3</p>
-            <p className='text-gray-500'>Older Kide's shoe</p>
+            <p className='text-gray-500'>Older Kide&apos;s shoe</p>
             <p className='text-gray-500'>1 Colour</p>
              <p className='flex'><span className='text-gray-800 '>MRP:</span> <span className='ml-1 mt-1'><LuIndianRupee /></span><span className='text-gray-800 ml-1'>7 495.00 </span></p>
 
@@ -242,7 +242,7 @@ const page = () => {
           
             <p  className='text-red-600'>Just In</p>
             <p className='text-gray-500'>Nike Blazer Low Platform</p>
-            <p className='text-gray-500'>women's's Shoes</p>
+            <p className='text-gray-500'>women&apos;s Shoes</p>
             <p className='text-gray-500'>1 Colour</p>
              <p className='flex'><span className='text-gray-800 '>MRP:</span> <span className='ml-1 mt-1'><LuIndianRupee /></span><span className='text-gray-800 ml-1'>8 195.00 </span></p>
 
@@ -255,8 +255,8 @@ const page = () => {
             />
           
             <p  className='text-red-600'>Just In</p>
-            <p className='text-gray-500'>Nike Air Force 1'07</p>
-            <p className='text-gray-500'>women's Shoes</p>
+            <p className='text-gray-500'>Nike Air Force 1&apos;07</p>
+            <p className='text-gray-500'>women&apos;s Shoes</p>
             <p className='text-gray-500'>2 Colour</p>
              <p className='flex'><span className='text-gray-800 '>MRP:</span> <span className='ml-1 mt-1'><LuIndianRupee /></span><span className='text-gray-800 ml-1'>8 195.00 </span></p>
 
@@ -270,7 +270,7 @@ const page = () => {
           
             <p  className='text-red-600'>Just In</p>
             <p className='text-gray-500'>Nike Pro Dry FIT </p>
-            <p className='text-gray-500'>Men's Tight Fit sleeveless Top</p>
+            <p className='text-gray-500'>Men&apos;s Tight Fit sleeveless Top</p>
             <p className='text-gray-500'>1 Colour</p>
              <p className='flex'><span className='text-gray-800 '>MRP:</span> <span className='ml-1 mt-1'><LuIndianRupee /></span><span className='text-gray-800 ml-1'>1 495.00 </span></p>
 
@@ -284,7 +284,7 @@ const page = () => {
           
             <p  className='text-red-600'>Just In</p>
             <p className='text-gray-500'>Nike Dunk Low Retro</p>
-            <p className='text-gray-500'>Men's Shoes</p>
+            <p className='text-gray-500'>Menvs Shoes</p>
             <p className='text-gray-500'>1 Colour</p>
              <p className='flex'><span className='text-gray-800 '>MRP:</span> <span className='ml-1 mt-1'><LuIndianRupee /></span><span className='text-gray-800 ml-1'>8 695.00 </span></p>
 
@@ -298,7 +298,7 @@ const page = () => {
           
             <p  className='text-red-600'>Just In</p>
             <p className='text-gray-500'>Nike Air Max Sc</p>
-            <p className='text-gray-500'>Women's's Shoes</p>
+            <p className='text-gray-500'>Women&apos;s Shoes</p>
             <p className='text-gray-500'>2 Colour</p>
              <p className='flex'><span className='text-gray-800 '>MRP:</span> <span className='ml-1 mt-1'><LuIndianRupee /></span><span className='text-gray-800 ml-1'>5 995.00 </span></p>
 
@@ -312,7 +312,7 @@ const page = () => {
           
             <p  className='text-red-600'>Just In</p>
             <p className='text-gray-500'>Nike Dry FIT UV Miler</p>
-            <p className='text-gray-500'>Men's Short sleeves Running Top</p>
+            <p className='text-gray-500'>Men&apos;s Short sleeves Running Top</p>
             <p className='text-gray-500'>1 Colour</p>
              <p className='flex'><span className='text-gray-800 '>MRP:</span> <span className='ml-1 mt-1'><LuIndianRupee /></span><span className='text-gray-800 ml-1'>1 695.00 </span></p>
 
@@ -326,7 +326,7 @@ const page = () => {
           
             <p  className='text-red-600'>Just In</p>
             <p className='text-gray-500'>Nike Air Max System</p>
-            <p className='text-gray-500'>OLder kid's shoes</p>
+            <p className='text-gray-500'>OLder kid&apos;s shoes</p>
             <p className='text-gray-500'>1 Colour</p>
              <p className='flex'><span className='text-gray-800 '>MRP:</span> <span className='ml-1 mt-1'><LuIndianRupee /></span><span className='text-gray-800 ml-1'>6 495.00 </span></p>
 
@@ -340,7 +340,7 @@ const page = () => {
           
             <p  className='text-red-600'>Just In</p>
             <p className='text-gray-500'>Nike Alate All U</p>
-            <p className='text-gray-500'>Women's Light Support Lightly Lined U  Sports Bra</p>
+            <p className='text-gray-500'>Women&apos;s Light Support Lightly Lined U  Sports Bra</p>
             <p className='text-gray-500'>1 Colour</p>
              <p className='flex'><span className='text-gray-800 '>MRP:</span> <span className='ml-1 mt-1'><LuIndianRupee /></span><span className='text-gray-800 ml-1'>2 195.00 </span></p>
 
@@ -354,7 +354,7 @@ const page = () => {
            
              <p  className='text-red-600'>Just In</p>
              <p className='text-gray-500'>Nike Course Legacy Lift</p>
-             <p className='text-gray-500'>Women's Shoes</p>
+             <p className='text-gray-500'>Women&apos;s Shoes</p>
              <p className='text-gray-500'>2 Colour</p>
               <p className='flex'><span className='text-gray-800 '>MRP:</span> <span className='ml-1 mt-1'><LuIndianRupee /></span><span className='text-gray-800 ml-1'>7 495.00 </span></p>
  
@@ -368,7 +368,7 @@ const page = () => {
           
             <p  className='text-red-600'>Just In</p>
             <p className='text-gray-500'>Nike Swoosh</p>
-            <p className='text-gray-500'>Wome's Medium-support Padded support Bra Tank</p>
+            <p className='text-gray-500'>Wome&apos;s Medium-support Padded support Bra Tank</p>
             <p className='text-gray-500'>2 Colour</p>
              <p className='flex'><span className='text-gray-800 '>MRP:</span> <span className='ml-1 mt-1'><LuIndianRupee /></span><span className='text-gray-800 ml-1'>3 095.00 </span></p>
 
@@ -382,7 +382,7 @@ const page = () => {
           
             <p  className='text-red-600'>Just In</p>
             <p className='text-gray-500'>Nike SB Zoom Janoski OG+</p>
-            <p className='text-gray-500'>Men's Shoes</p>
+            <p className='text-gray-500'>Men&apos;s Shoes</p>
             <p className='text-gray-500'>1 Colour</p>
              <p className='flex'><span className='text-gray-800 '>MRP:</span> <span className='ml-1 mt-1'><LuIndianRupee /></span><span className='text-gray-800 ml-1'>8 995.00 </span></p>
 
@@ -396,7 +396,7 @@ const page = () => {
           
             <p  className='text-red-600'>Just In</p>
             <p className='text-gray-500'>Nike Dri FIT Run Division Rise 365</p>
-            <p className='text-gray-500'>Men's Runnig Tank</p>
+            <p className='text-gray-500'>Men&apos;s Runnig Tank</p>
             <p className='text-gray-500'>2 Colour</p>
              <p className='flex'><span className='text-gray-800 '>MRP:</span> <span className='ml-1 mt-1'><LuIndianRupee /></span><span className='text-gray-800 ml-1'>3 495.00 </span></p>
 
@@ -410,7 +410,7 @@ const page = () => {
           
             <p  className='text-red-600'>Just In</p>
             <p className='text-gray-500'>Nike Dry FIT Challanger</p>
-            <p className='text-gray-500'>Men's 18cm(approx) 2 in 1 versatile Shorts</p>
+            <p className='text-gray-500'>Men&apos;s 18cm(approx) 2 in 1 versatile Shorts</p>
             <p className='text-gray-500'>1 Colour</p>
              <p className='flex'><span className='text-gray-800 '>MRP:</span> <span className='ml-1 mt-1'><LuIndianRupee /></span><span className='text-gray-800 ml-1'>2 495.00 </span></p>
 
@@ -424,7 +424,7 @@ const page = () => {
           
             <p  className='text-red-600'>Just In</p>
             <p className='text-gray-500'>Jordan Series ES</p>
-            <p className='text-gray-500'>Men's Shoes</p>
+            <p className='text-gray-500'>Men&apos;s Shoes</p>
             <p className='text-gray-500'>2 Colour</p>
              <p className='flex'><span className='text-gray-800 '>MRP:</span> <span className='ml-1 mt-1'><LuIndianRupee /></span><span className='text-gray-800 ml-1'>7 495.00 </span></p>
 
@@ -438,7 +438,7 @@ const page = () => {
           
             <p  className='text-red-600'>Just In</p>
             <p className='text-gray-500'>Nike Outdoor Play</p>
-            <p className='text-gray-500'>Over Kid's Oversized Jacket</p>
+            <p className='text-gray-500'>Over Kid&apos;s Oversized Jacket</p>
             <p className='text-gray-500'>1 Colour</p>
              <p className='flex'><span className='text-gray-800 '>MRP:</span> <span className='ml-1 mt-1'><LuIndianRupee /></span><span className='text-gray-800 ml-1'>3 895.00 </span></p>
 
@@ -452,7 +452,7 @@ const page = () => {
           
             <p  className='text-red-600'>Just In</p>
             <p className='text-gray-500'>Nike Sportswear Trend </p>
-            <p className='text-gray-500'>Older Kid's(Girl's)High Waisted Woven Shorts</p>
+            <p className='text-gray-500'>Older Kid&apos;s(Girl&apos;s)High Waisted Woven Shorts</p>
             <p className='text-gray-500'>2 Colour</p>
              <p className='flex'><span className='text-gray-800 '>MRP:</span> <span className='ml-1 mt-1'><LuIndianRupee /></span><span className='text-gray-800 ml-1'>2 495.00 </span></p>
 
@@ -465,8 +465,8 @@ const page = () => {
             />
           
             <p  className='text-red-600'>Just In</p>
-            <p className='text-gray-500'>Nike Blazer Low '77 Jumbo</p>
-            <p className='text-gray-500'>women's's Shoes</p>
+            <p className='text-gray-500'>Nike Blazer Low &apos;77 Jumbo</p>
+            <p className='text-gray-500'>women&apos;s Shoes</p>
             <p className='text-gray-500'>1 Colour</p>
              <p className='flex'><span className='text-gray-800 '>MRP:</span> <span className='ml-1 mt-1'><LuIndianRupee /></span><span className='text-gray-800 ml-1'>8 595.00 </span></p>
 

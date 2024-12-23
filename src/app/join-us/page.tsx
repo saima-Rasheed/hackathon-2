@@ -17,10 +17,10 @@ const page = () => {
                 <input type='text'name='text'placeholder='First Name'  className='border  p-2 rounded  h-10 w-96'/>
                 <input type='text'name='text'placeholder='Last Name' className='border  p-2 rounded  h-10 w-96' />
                 <input type='date'name='Date'placeholder='Date of Birth'  className='border  p-2 rounded  h-10 w-96'/>
-                <p className='text-gray-500'>Get a Nike's Member Reward every year on your Birth Day</p>
+                <p className='text-gray-500'>Get a Nike&apos;s Member Reward every year on your Birth Day</p>
                  <div className='flex justify-center items-center'>
                 <select id='countries'className='border border-gray-300 p-2 h-10 w-96 rounded text-gray-500'>
-                    <option value=''disabled selected> choose a country</option>
+                    <option value='disabled selected'> choose a country</option>
                     <option value='USA'>Unites states</option>
                     <option value='UK'>United Kingdom</option>
                     <option value='INDIA'>INDIA</option>
@@ -40,7 +40,7 @@ const page = () => {
             <input type='checkbox'id='keepMeSignIn' className='h-4 w-4  text-gray-500'/> <div className='text-sm md:text-md lg:text-lg text-gray-500'> Sign up for e-mails to getupdates from Nike on </div> <div className='text-gray-500 text-sm md:text-md lg:text-lg'>products ,offers and your Member benefits</div>
             </div>
             <div className='flex flex-col justify-end items-center mt-8'>
-              <div className='text-gray-500'>By logging in. you agree to Nike's <a href='#' className='underline'>Policy </a>and<a className='underline'>Term of Use</a></div>
+              <div className='text-gray-500'>By logging in. you agree to Nike&apos;s <a href='#' className='underline'>Policy </a>and<a className='underline'>Term of Use</a></div>
              <button className='bg-black text-gray-400 h-10 w-80 mt-2 md:mt-4 lg:mt-8'>Sign In</button>
              <p className='mt-5 text-gray-500'>Already a Member <a href='#' className='underline'>Sign In </a></p>
             </div>

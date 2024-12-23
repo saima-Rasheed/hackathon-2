@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import React from 'react' 
 import Image from 'next/image'
-import { Main } from 'next/document'
 import { LuIndianRupee } from "react-icons/lu";
 import { AiOutlineRightCircle } from "react-icons/ai";
 import { IoChevronBackCircleOutline } from "react-icons/io5";
@@ -54,7 +53,7 @@ Download the app to access everything Nike.<Link href="#" className='underline'>
     <div className=' flex absolute right-2 px-3 py-1 text-sm'><LuIndianRupee />13,995</div>
     </div>
     <p className='text-sm font-semibold'>Nike Air max Pulse</p>
-    <p className='text-sm'>Women's shoes </p>
+    <p className='text-sm'>Women&apos;s shoes </p>
   
     </div>
 
@@ -70,7 +69,7 @@ Download the app to access everything Nike.<Link href="#" className='underline'>
     </div>
     
     <p className='text-sm font-semibold'>Nike Air max Pulse</p>
-    <p className='text-sm '>Men's shoes </p>
+    <p className='text-sm '>Men&apos;s shoes </p>
     </div>
     
     <div className='flex flex-col gap-1 p-1'>
@@ -83,7 +82,7 @@ Download the app to access everything Nike.<Link href="#" className='underline'>
     <div className=' flex absolute right-2 px-3 py-1 text-sm'><LuIndianRupee />16,995</div>
     </div>
     <p className='text-sm font-semibold'>Nike Air max Pulse</p>
-    <p className='text-sm'>Men's shoes</p>
+    <p className='text-sm'>Men&apos;s shoes</p>
     </div>
     </section>
 
@@ -122,7 +121,7 @@ Download the app to access everything Nike.<Link href="#" className='underline'>
     
      </div>
     <p className='font-semibold text-sm '>Nike Dri FIT Techknit Ultra </p>
-    <p className='text-sm'>Men's short-sleeves</p>
+    <p className='text-sm'>Men&apos;s short-sleeves</p>
      <p className='text-sm'>Running Top</p>
     </div>
 
@@ -138,7 +137,7 @@ Download the app to access everything Nike.<Link href="#" className='underline'>
     <div className=' flex absolute right-1 px-0 py-1 text-sm'><LuIndianRupee />2,495</div>
     
     <p className='font-semibold'>Nike Dri FIT challenger</p>
-    <p className='text-sm'>Men's 18cm approx 2-</p>
+    <p className='text-sm'>Men&apos;s 18cm approx 2-</p>
      <p className='text-sm'>in-1 versatile shorts</p>
      </div>
      
@@ -155,7 +154,7 @@ width={248}
 <div className=' flex absolute right-1 px-0 py-1 text-sm'><LuIndianRupee />5,295</div>
 
 <p className='font-semibold'>Nike Dri FIT Run Division</p>
-<p className='text-sm'>Women's Long Sleeve</p>
+<p className='text-sm'>Women&apos;s Long Sleeve</p>
 <p className='text-sm'>Running Top</p>
 </div>
 </div>
@@ -171,7 +170,7 @@ width={248}
 <div className=' flex absolute right-2 px-0 py-1 text-sm'><LuIndianRupee />3,795</div>
 
 <p className='font-semibold'>Nike Fast</p>
-<p className='text-sm'>Women's Mid-Rise 7/8 Running</p>
+<p className='text-sm'>Women&apos;s Mid-Rise 7/8 Running</p>
 <p className='text-sm'>Leggings With Pockets</p>
 </div>
 </div>
@@ -181,7 +180,7 @@ width={248}
   
     
     <section className='flex flex-col gap-5 mt-20'>
-    <p className='font-semibold ml-96'>Don't Miss</p>
+    <p className='font-semibold ml-96'>Donvt Miss</p>
     <div className='flex justify-center'>
     <Image src={`/Image (13).png`}
     alt='image'
@@ -254,11 +253,11 @@ width={248}
 
   
     <div>
-      <p className='font-bold'>Kids'</p>
+      <p className='font-bold'>Kids&apos;</p>
       <p>Infant $ toddlers Shoes</p>
-      <p>Kid's Shoes </p>
-      <p>Kids's Jordan Shoes</p>
-      <p>Kide's Basketball Shoes</p>
+      <p>Kid&apos;s Shoes </p>
+      <p>Kid&apos;s Jordan Shoes</p>
+      <p>Kide&apos;s Basketball Shoes</p>
        </div>
     
     <div>
