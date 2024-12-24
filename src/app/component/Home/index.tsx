@@ -180,7 +180,7 @@ width={248}
   
     
     <section className='flex flex-col gap-5 mt-20'>
-    <p className='font-semibold ml-96'>Donvt Miss</p>
+    <p className='font-semibold ml-96'>Dont Miss</p>
     <div className='flex justify-center'>
     <Image src={`/Image (13).png`}
     alt='image'

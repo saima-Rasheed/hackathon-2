@@ -12,10 +12,10 @@ const page = () => {
         
         <div className='bg-white h-full w-7/12 flex flex-col items-center'>
         <p className='text-gray-500 text-xl'>How would you like to get your order?</p>
-        <p className='text-sm text-gray-500 mt-2 lg:mt-8'> Custom regulation for India reuire a copy of recipient&apos;s <br />
-            KYC.The address of the KYC needs to matc the shipping<br />
+        <p className='text-sm text-gray-500 mt-2 lg:mt-8'> Custom regulation for India require a copy of recipient&apos;s <br />
+            KYC.The address of the KYC needs to match the shipping<br />
             address. Our courier will contact you via sms/e-mail to obtain<br />
-            a copy of your KYC.the KYC will be stored securely and <br /> used solely for the purpose of claerin custom(incliuding
+            a copy of your KYC.the KYC will be stored securely and <br /> used solely for the purpose of clearin custom(including
             <br />sharing it with custom officials) for all oreders and returns.If <br /> your KYC doesn&apos;t match your shipping addresss,please click
             <br />the link for more information.<a href='#' className='underline'>Learn More</a>
 
