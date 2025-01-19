@@ -29,24 +29,24 @@ const page = () => {
              <div className='flex justify-start gap-4 items-start mt-5'> <button className='bg-black text-gray-300 h-12 rounded-full w-20 sm:w-20 sm:text-sm md:w-28 text-sm max-lg:w-36 text-md'>JOIN US</button>
              <button className='bg-black text-gray-300 h-12 rounded-full w-20 sm:w-20 sm:text-sm md:w-28 text-sm max-lg:w-36 text-md '>SHOP NIKE</button>
              </div>
-             <h2 className='text-2xl font-semibold text-gray-800 mt-5 '>FAQs</h2>
-             <p className='text-xl font-semibold text-gray-800 mt-5 '>Does my card need international purchases enabled?</p>
-             <p  className='text-gray-500 text-sm'>Yes, we recommend asking your bank to enable international purchases on your card.You will be notified at checkout<br/>if internation purchases needs to  be enabled<br/>Please note,some banks may charge a small transaction fee for international orders</p>
-             <h2 className='text-xl font-semibold text-gray-800 mt-5 '>Can I pay for my order with multiple method?</h2>
-             <p  className='text-gray-500 text-sm'>No, payment for Nike orders can&apos;t be split between multilple payment methods.</p>
-             <h2 className='text-xl font-semibold text-gray-800 mt-5 '>What payment method is acceptd for SNKRS orders?</h2>
-             <p  className='text-gray-500 text-sm'>you can use any accepted credit card tp pay for your SNKRS order</p>
-             <h2 className='text-xl font-semibold text-gray-800 mt-5 '>Why don&apos;t I see Apple Pay as an option?</h2>
-             <p  className='text-gray-500 text-sm'>To see Apple Pay as an option in the Nike App or on Nike.com You w&apos;ll need to use a compatible Apple device running the latest<br/>OS 
+             <h2 className='text-2xl font-semibold text-gray-800 mt-5 ml-10 '>FAQs</h2>
+             <p className='text-xl font-semibold text-gray-800 mt-5 ml-2 '>Does my card need international purchases enabled?</p>
+             <p  className='text-gray-500 text-sm ml-2'>Yes, we recommend asking your bank to enable international purchases on your card.You will be notified at checkout<br/>if internation purchases needs to  be enabled<br/>Please note,some banks may charge a small transaction fee for international orders</p>
+             <h2 className='text-xl font-semibold text-gray-800 mt-5  ml-2'>Can I pay for my order with multiple method?</h2>
+             <p  className='text-gray-500 text-sm ml-2'>No, payment for Nike orders can&apos;t be split between multilple payment methods.</p>
+             <h2 className='text-xl font-semibold text-gray-800 mt-5 ml-2 '>What payment method is acceptd for SNKRS orders?</h2>
+             <p  className='text-gray-500 text-sm ml-2'>you can use any accepted credit card tp pay for your SNKRS order</p>
+             <h2 className='text-xl font-semibold text-gray-800 mt-5  ml-2'>Why don&apos;t I see Apple Pay as an option?</h2>
+             <p  className='text-gray-500 text-sm ml-2'>To see Apple Pay as an option in the Nike App or on Nike.com You w&apos;ll need to use a compatible Apple device running the latest<br/>OS 
              ,be signed in to your iCloud account and have a supported card in your wallet.Additionally, you will need to use Safari to use<br/>Apple Pay on Nike.com</p>
-              <p className='mt-5 text-sm md:text-sm lg:text-md'>Was this answer helpful?</p>
-              <div className='flex'>
+              <p className='mt-5 text-sm md:text-sm lg:text-md ml-2'>Was this answer helpful?</p>
+              <div className='flex ml-2 mt-2 mb-2'>
                 <div><AiFillLike /></div>
-                <div><BiSolidDislike /></div>
+                <div><BiSolidDislike /></div> 
                 <div>
-                <h2 className='text-gray-500 mt-2 text-xl'>RELATED</h2>
-                <p><a href='#'className='underline mt-2 ml-5'>WHAT ARE NIKE DELIVERY OPTIONS</a></p>
-                <p><a href='#'className=' mt-2 underline ml-5'>HOW TO I GET FREE DELIVERY ON NIKE ORDERS?</a></p>
+                <h2 className='text-gray-800  text-xl  ml-5 mb-1 '>RELATED</h2>
+                <p><a href='#'className='underline '>WHAT ARE NIKE DELIVERY OPTIONS</a></p>
+                <p><a href='#'className='  underline '>HOW TO I GET FREE DELIVERY ON NIKE ORDERS?</a></p>
                 </div>
               </div>
            </div>

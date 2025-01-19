@@ -27,7 +27,7 @@ const page = () => {
           <hr/>   
           <h2 className='font-bold text-sm sm:text-sm md:text-md lg:text-lg text-gray-800 mt-10 ml-2 '>Gender</h2>
           <div className='flex justify-center items-center space-x-2 mt-5 sm:space-x-0'> 
-            <input type='checkbox'id='men' className='h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 lg:h-7 lg:w-7  text-gray-500 absolute left-1 '/> <div className='text-sm sm:text-sm md:text-md lg:text-lg text-gray-800  absolute left-7 '>Men</div>
+            <input type='checkbox'id='men' className='h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 lg:h-7 lg:w-7  text-gray-500 absolute left-1 '/> <div className='text-sm sm:text-sm md:text-md lg:text-lg text-gray-800  absolute left-7  lg:left-9'>Men</div>
             </div>
             <div className='flex justify-center items-center space-x-2 '> 
             <input type='checkbox'id='women'className='h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 lg:h-7 lg:w-7 text-gray-500 absolute left-1 mt-8'/> <div className='text-gray-800 text-sm sm:text-sm md:text-md lg:text-lg absolute left-7 mt-8'>Women</div>

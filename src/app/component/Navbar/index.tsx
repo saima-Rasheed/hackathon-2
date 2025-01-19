@@ -13,20 +13,20 @@ const Navbar = () => {
     <nav className='flex items-center justify-between bg-white w-full h-auto px-4'>
       {/*first div icon on left side*/}
       <div className='bg-white w-1/8 flex items-center justify-center p-2'>
-        <SiNike className=' flex-1 flex items-center justify-center h-10 w-10 text-black '/>
+        <SiNike className=' flex-1 flex items-center justify-center h-5 w-5 md:h-8 lg:h-10 text-black '/>
 
       </div>
       {/* second navigation */}
       <div className=' bg-white h-12 w-full'>
         <ul className='flex justify-center items-center  gap-3'>
-          <li><Link href="/" className='sm:text-sm lg:text-large'>New & featured</Link></li>
-          <li><Link href="/all-product"  className='sm:text-sm lg:text-large'>All Product</Link></li>
-          <li><Link href="/product-detail"className='sm:text-sm lg:text-large'>Product Detail</Link></li>
-          <li><Link href="/login"  className='sm:text-sm lg:text-large'>Login</Link></li>
-          <li><Link href="/join-us"  className='sm:text-sm lg:text-large'>Join Us</Link></li>
-          <li><Link href="/contact-us" className='sm:text-sm lg:text-large'>Contact Us</Link></li>
-          <li><Link href="/cart" className='sm:text-sm lg:text-large'>Cart</Link></li>
-          <li><Link href="/checkout" className='sm:text-sm lg:text-large'>Checkout</Link></li>
+          <li><Link href="/" className=' sm:text-xs md:text-sm lg:text-large'>New & featured</Link></li>
+          <li><Link href="/all-product"  className='sm:text-xs md:text-xs lg:text-large'>All Product</Link></li>
+          <li><Link href="/product-detail"className='sm:text-xs md:text-xs lg:text-large'>Product Detail</Link></li>
+          <li><Link href="/login"  className='sm:text-xs md:text-xs lg:text-large'>Login</Link></li>
+          <li><Link href="/join-us"  className='sm:text-xs md:text-xs lg:text-large'>Join Us</Link></li>
+          <li><Link href="/contact-us" className='sm:text-xs md:text-xs lg:text-large'>Contact Us</Link></li>
+          <li><Link href="/cart" className='sm:text-xs md:text-xs lg:text-large'>Cart</Link></li>
+          <li><Link href="/checkout" className='sm:text-xs md:text-xs lg:text-large'>Checkout</Link></li>
           
         </ul>
       </div>

@@ -13,7 +13,7 @@ const Topbar = () => {
                  width={20}
                   />
                 </div> 
-      <ul className='flex justify-end gap-4 text-sm'>
+      <ul className='flex justify-end gap-4 text-xs md:text-sm lg:text-lg'>
         <li>Find a Store |</li>
         <li>Help |</li>
         <li>Join Us |</li>
