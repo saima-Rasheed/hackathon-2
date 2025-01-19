@@ -16,11 +16,11 @@ Hello Nike App</div>
 Download the app to access everything Nike.<Link href="#" className='underline'> Get Your Great</Link></div>
 </div>
  <div className=' flex justify-center'>
-  <Image src={`/main.png`} 
+  <Image src={`/Image (5).png`} 
   alt='shoes'
-  height={200}
-  width={300} 
- className='sm:h-[200px] w-[300px] md:h-[250px] lg:h-[300px]' 
+  height={300}
+  width={500} 
+ className='sm:h-[200px] w-[500px] md:h-[300px] lg:h-[400px]' 
   
   />
   
@@ -36,21 +36,22 @@ Download the app to access everything Nike.<Link href="#" className='underline'>
     <button className='bg-black w-[60px] h-[30px] rounded-2xl text-white mt-5'>Shop Air Max</button>
   </div>
   <p className=' flex justify-start  ml-20 font-semibold text-sm sm:text-sm lg:text-lg'>Best of Air Max</p>
-  <section className=' grid sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-1 flex-wrap justify-center p-4'>
+  <section className=' grid grid-cols-1 sm:grid-cols-3  md:grid-cols-3 lg:grid-cols-3 gap-1 flex-wrap justify-center p-4'>
     
     
-    <div className=' justify-center items-center   w-full h-auto '>
+    <div className=' justify-center items-center  h-auto '>
     
       <div className='relative'>
       
-    <Image src={`/shoe-1.png`}
+    <Image src={`/Image (7).png`}
     alt='Image'
-    height={200}
-    width={300}
-    className='sm:h-[200px] w-[300px] md:h-[250px] lg:h-[300px]' 
+    layout='responsive'
+    height={300}
+    width={500}
+    className='sm:h-[200px] w-[500px] md:h-[300px] lg:h-[300px]' 
     />
     
-    <div className=' flex absolute right-2 px-3 py-1 text-sm'><LuIndianRupee />13,995</div>
+    <div className=' flex  sm:static absolute right-2 px-3 py-1 text-sm'><LuIndianRupee />13,995</div>
     </div>
     <p className='text-sm  lg:text-lg font-semibold'>Nike Air max Pulse</p>
     <p className='text-sm'>Women&apos;s shoes </p>
@@ -61,11 +62,12 @@ Download the app to access everything Nike.<Link href="#" className='underline'>
       <div className='relative '>
     <Image src={`/shoe 2.png`}
     alt='Image'
-    height={200}
-    width={300}
-    className='sm:h-[200px] w-[300px] md:h-[250px] lg:h-[300px]' 
+    layout='responsive'
+    height={300}
+    width={500}
+    className='sm:h-[200px] w-[500px] md:h-[250px] lg:h-[300px]' 
     />
-    <div className=' flex absolute right-2 px-3 py-1 text-sm'><LuIndianRupee />13,995</div>
+    <div className=' flex sm:static absolute right-2 px-3 py-1 text-sm'><LuIndianRupee />13,995</div>
     </div>
     
     <p className='text-sm lg:text-lg font-semibold'>Nike Air max Pulse</p>
@@ -75,12 +77,13 @@ Download the app to access everything Nike.<Link href="#" className='underline'>
     <div className='flex flex-col gap-1 p-1'>
       <div className='relative '>
      <Image src={`/shoe 3.png`}
-    alt='Image' 
-    height={200}
-    width={300}
-    className='sm:h-[200px] w-[300px] md:h-[250px] lg:h-[300px]' 
+    alt='Image'
+    layout='responsive' 
+    height={300}
+    width={500}
+    className='sm:h-[200px] w-[500px] md:h-[250px] lg:h-[300px]' 
     />
-    <div className=' flex absolute right-2 px-3 py-1 text-sm'><LuIndianRupee />16,995</div>
+    <div className=' flex sm:static absolute right-2 px-3 py-1 text-sm'><LuIndianRupee />16,995</div>
     </div>
     <p className='text-sm  lg:text-lg font-semibold'>Nike Air max Pulse</p>
     <p className='text-sm'>Men&apos;s shoes</p>
@@ -93,9 +96,9 @@ Download the app to access everything Nike.<Link href="#" className='underline'>
     <div className='flex justify-center'>
     <Image src={`/Image (10).png`}
     alt='image'
-    height={200}
-    width={300}
-    className='sm:h-[200px] w-[300px] md:h-[250px] lg:h-[300px]' 
+    height={300}
+    width={500}
+    className='sm:h-[200px] w-[500px] md:h-[250px] lg:h-[300px]' 
     />
     
     </div>
@@ -115,9 +118,9 @@ Download the app to access everything Nike.<Link href="#" className='underline'>
       <div className='relative '>
     <Image src={`/Image (11).png`}
     alt='image1'
-    height={100}
-    width={150}
-    className='sm:h-[200px] w-[300px] md:h-[200px] lg:h-[200px]' 
+    height={300}
+    width={500}
+    className='sm:h-[200px] w-[500px] md:h-[300px] lg:h-[200px]' 
     />
   
       <div className=' flex absolute right-1 md:left-56 lg:left-44 px-0 py-1 text-sm'><LuIndianRupee />3,895</div>
@@ -134,9 +137,9 @@ Download the app to access everything Nike.<Link href="#" className='underline'>
 
      <Image src={`/Image (12).png`}
     alt='image2'
-    height={100}
-    width={150}
-    className='sm:h-[200px] w-[300px] md:h-[200px] lg:h-[200px]'  
+    height={300}
+    width={500}
+    className='sm:h-[200px] w-[500px] md:h-[300px] lg:h-[200px]'  
     />
     <div className=' flex absolute  right-1 md:left-56 lg:left-44 px-0 py-1 text-sm'><LuIndianRupee />2,495</div>
     
@@ -151,9 +154,9 @@ Download the app to access everything Nike.<Link href="#" className='underline'>
 
 <Image src={`/Image (18).png`}
 alt='image3'
-height={100}
-width={150}
-className='sm:h-[200px] w-[300px] md:h-[200px] lg:h-[200px]' 
+height={200}
+width={500}
+className='sm:h-[200px] w-[500px] md:h-[300px] lg:h-[200px]' 
 
 />
 <div className=' flex absolute  right-1 md:left-56 lg:left-44 px-0 py-1 text-sm'><LuIndianRupee />5,295</div>
@@ -168,9 +171,9 @@ className='sm:h-[200px] w-[300px] md:h-[200px] lg:h-[200px]'
 <div className=' relative '>
 <Image src={`/Image (19).png`}
 alt='image4'
-height={100}
-width={150}
-className='sm:h-[200px] w-[300px] md:h-[200px] lg:h-[200px]' 
+height={200}
+width={500}
+className='sm:h-[200px] w-[500px] md:h-[300px] lg:h-[200px]' 
 
 />
 <div className=' flex absolute  right-1 md:left-56 lg:left-44 px-0 py-1 text-sm'><LuIndianRupee />3,795</div>
@@ -190,9 +193,9 @@ className='sm:h-[200px] w-[300px] md:h-[200px] lg:h-[200px]'
     <div className='flex justify-center'>
     <Image src={`/Image (13).png`}
     alt='image'
-    height={200}
-    width={300}
-    className='sm:h-[200px] w-[300px] md:h-[250px] lg:h-[300px]' 
+    height={300}
+    width={500}
+    className='sm:h-[200px] w-[500px] md:h-[250px] lg:h-[300px]' 
     />
     </div>
       <div className='text-center'>
@@ -204,37 +207,37 @@ className='sm:h-[200px] w-[300px] md:h-[200px] lg:h-[200px]'
       </div>
     </section>
     <p className='font-semibold text-sm lg:text-lg ml-96 mt-4 mb-2'>The Essentials</p>
-    <section className=' grid sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-1 flex-wrap justify-center p-4'>
+    <section className=' grid sm:grid-cols-1  md:grid-cols-3 lg:grid-cols-3 gap-1 flex-wrap justify-center p-4'>
     
      <div className=' justify-center items-center   w-full h-auto '>
     
       
       
-        <Image src={`/pic1.png`}
+        <Image src={`/es1.png`}
         alt='image'
-        height={200}
-        width={300}
-        className='sm:h-[200px] w-[300px] md:h-[250px] lg:h-[300px]' 
+        height={300}
+        width={500}
+        className='sm:h-[200px] w-[500px] md:h-[250px] lg:h-[300px]' 
         />
 
 </div>
 
 <div>
-<Image src={`/pic2.png`}
+<Image src={`/es2.png`}
         alt='image'
-        height={200}
-        width={300}
-        className='sm:h-[200px] w-[300px] md:h-[250px] lg:h-[300px]' 
+        height={300}
+        width={500}
+        className='sm:h-[200px] w-[500px] md:h-[250px] lg:h-[300px]' 
         />
         
         </div>
  
  <div>
-<Image src={`/pic3.png`}
+<Image src={`/es3.png`}
         alt='image'
-        height={200}
-        width={300}
-        className='sm:h-[200px] w-[300px] md:h-[250px] lg:h-[300px]' 
+        height={300}
+        width={500}
+        className='sm:h-[200px] w-[500px] md:h-[250px] lg:h-[300px]' 
         />
        </div>
         
@@ -242,7 +245,7 @@ className='sm:h-[200px] w-[300px] md:h-[200px] lg:h-[200px]'
     
     </section>
 
-    <section className='grid sm:grid-cols-2 md:grid-cols-4  gap-20 ml-5'>
+    <section className='grid sm:grid-cols-2 md:grid-cols-4  gap-20 ml-5 mb-5'>
     
 
       <div>
