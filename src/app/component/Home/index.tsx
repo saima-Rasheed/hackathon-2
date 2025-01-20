@@ -60,7 +60,7 @@ Download the app to access everything Nike.<Link href="#" className='underline'>
 
     <div className='flex flex-col gap-1 p-1'>
       <div className='relative '>
-    <Image src={`/shoe 2.png`}
+    <Image src={`/Rectangle (3).png`}
     alt='Image'
     layout='responsive'
     height={300}
