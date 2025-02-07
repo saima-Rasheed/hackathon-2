@@ -8,7 +8,7 @@ import Image from 'next/image';
 import { urlFor } from '@/sanity/lib/image';
 import { CgChevronRight } from 'react-icons/cg';
 
-const checkout = () => {
+const Checkout = () => {
     const [cartItems, setCartItems] = useState<Product[]>([]);
     const [discount, setDiscount] = useState<number>(0);
     const [formValues, setFormValues] = useState({
@@ -238,7 +238,7 @@ const checkout = () => {
                                 
                             </div>
                             <button
-                            className='w-full h-12 "mt-8 px-4 py-2 bg-gray-600 text-white font-bold rounded-lg shadow-md hover:bg-green-600 transition"' 
+                            className='w-full h-12 mt-8 px-4 py-2 bg-gray-600 text-white font-bold rounded-lg shadow-md hover:bg-green-600 transition' 
                             
                             onClick={handlePlaceOrder}>
                                 Place Your Order
@@ -254,4 +254,4 @@ const checkout = () => {
     );
 };
 
-export default checkout;
+export default Checkout;
