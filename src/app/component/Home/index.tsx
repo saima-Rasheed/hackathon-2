@@ -1,20 +1,55 @@
+"use client";
+
 import Link from 'next/link'
-import React from 'react' 
+import React, { useEffect, useState } from 'react' 
 import Image from 'next/image'
 import { LuIndianRupee } from "react-icons/lu";
 import { AiOutlineRightCircle } from "react-icons/ai";
 import { IoChevronBackCircleOutline } from "react-icons/io5";
 import { IoChevronForwardCircleOutline } from "react-icons/io5";
 
+import { client } from '@/sanity/lib/client';
+import { Product } from '../../../../type/products';
+import { allProducts, four } from '@/sanity/lib/queries';
+import { productSchema } from '@/sanity/schemaTypes/product';
+import { url } from 'node:inspector';
+import { urlFor} from '@/sanity/lib/image';
+import { addToCart } from '@/app/actions/actions';
+import swal from "sweetalert2"
+import Swal from 'sweetalert2';
+
 const Home = () => {
+
+  const[product,setProduct]= useState<Product[]>([])
+
+  useEffect(() =>{
+    async function fetchproduct(){
+      const fetchedProduct:Product[] = await client.fetch(four)
+      setProduct(fetchedProduct)
+    }
+    fetchproduct()
+ 
+    },[]);
+    const handleAddToCart =(e:React.MouseEvent,product:Product) =>{
+      e.preventDefault()
+      Swal.fire({
+        position:"top-right",
+        icon:"success",
+        title : `${product.productName} added to cart`,
+        showConfirmButton : false,
+        timer :1000
+      })
+      addToCart(product)
+    }
+  
+  
   return (
-    <div>
-        <div className='bg-white w-[full] h-12 flex flex-col justify-center items-center '> 
-<div  className='font-medium sm:text-sm md:text-sm lg:text-lg lg:font-bold'>
+   <div>
+<div  className='font-medium sm:text-sm md:text-sm lg:text-lg lg:font-bold text-center'>
 Hello Nike App</div>
-<div className='top-10 sm:top-15 text-sm sm:text-sm  lg:text-lg lg:font-semibold '>
-Download the app to access everything Nike.<Link href="#" className='underline'> Get Your Great</Link></div>
-</div>
+<div className='top-10 sm:top-15 text-sm sm:text-sm  lg:text-lg lg:font-semibold text-center '>
+Download the app to access everything Nike.<Link href="/all-product" className='underline'> Get Your Great</Link></div>
+
  <div className=' flex justify-center'>
   <Image src={`/Image (5).png`} 
   alt='shoes'
@@ -35,60 +70,59 @@ Download the app to access everything Nike.<Link href="#" className='underline'>
 
     <button className='bg-black w-[60px] h-[30px] rounded-2xl text-white mt-5'>Shop Air Max</button>
   </div>
-  <p className=' flex justify-start  ml-20 font-semibold text-sm sm:text-sm lg:text-lg'>Best of Air Max</p>
-  <section className=' grid grid-cols-1 sm:grid-cols-3  md:grid-cols-3 lg:grid-cols-3 gap-1 flex-wrap justify-center p-4'>
-    
-    
-    <div className=' justify-center items-center  h-auto '>
-    
-      <div className='relative'>
-      
-    <Image src={`/Image (7).png`}
-    alt='Image'
-    layout='responsive'
-    height={300}
-    width={500}
-    className='sm:h-[200px] w-[500px] md:h-[300px] lg:h-[300px]' 
-    />
-    
-    <div className=' flex  sm:static absolute right-2 px-3 py-1 text-sm'><LuIndianRupee />13,995</div>
-    </div>
-    <p className='text-sm  lg:text-lg font-semibold'>Nike Air max Pulse</p>
-    <p className='text-sm'>Women&apos;s shoes </p>
+  <p className=' flex justify-start mb-0 ml-20 font-semibold text-sm sm:text-sm lg:text-lg'>Best of Air Max</p>
   
-    </div>
+  <section>
+    <div className='max-w-7xl mx-w-screen-lg max-auto px-4 py-8'>
+    <h1 className='text-3xl font-bold mb-6 text-center'>Newly introduce</h1> 
+        <div className='bg-white h-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2  xl:grid-cols-4 gap-8 '> 
+          {product.map((product)=>(
+            <div className='border rounded-lg shadow-md p-4 hover:shadow-lg transition duration-200 '
+             key={product._id}>
+             <Link href={`/product/${product.slug.current}`}>
+            {product.image &&(
+              <Image
+              src={urlFor(product.image).url()}
+              alt="image"
+              width={150}
+              height={150}
+              className='w-full h-40 object-contain rounded-md '
+              />
+            )}
+            
+             <h2 className='text-lg font-semibold mt-2 text-red-500'>{product.status}</h2>
+             <h2 className='text-lg font-semibold mt-1'>{product.productName}</h2>
+             <p className='text-gray-500 mt-1'>
+              {product.price? `$${product.price}`: "Price not available"}</p>
+              <button className='bg-gradient-to-r from-lime-300 to-lime-800 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:shadow-lg hover:scale-110 transition-transform duration-200 ease-in-out'
+              onClick={(e) => handleAddToCart(e, product)}
+              >
+                Add To Cart
+              </button>
+              
+              </Link>
+              
+              </div>
+          ))}
+            
+            </div>
+            </div>  
+         
+      </section>
+          
+          
+          
+ 
+  
 
-    <div className='flex flex-col gap-1 p-1'>
-      <div className='relative '>
-    <Image src={`/Rectangle (3).png`}
-    alt='Image'
-    layout='responsive'
-    height={300}
-    width={500}
-    className='sm:h-[200px] w-[500px] md:h-[250px] lg:h-[300px]' 
-    />
-    <div className=' flex sm:static absolute right-2 px-3 py-1 text-sm'><LuIndianRupee />13,995</div>
-    </div>
-    
-    <p className='text-sm lg:text-lg font-semibold'>Nike Air max Pulse</p>
-    <p className='text-sm '>Men&apos;s shoes </p>
-    </div>
-    
-    <div className='flex flex-col gap-1 p-1'>
-      <div className='relative '>
-     <Image src={`/shoe 3.png`}
-    alt='Image'
-    layout='responsive' 
-    height={300}
-    width={500}
-    className='sm:h-[200px] w-[500px] md:h-[250px] lg:h-[300px]' 
-    />
-    <div className=' flex sm:static absolute right-2 px-3 py-1 text-sm'><LuIndianRupee />16,995</div>
-    </div>
-    <p className='text-sm  lg:text-lg font-semibold'>Nike Air max Pulse</p>
-    <p className='text-sm'>Men&apos;s shoes</p>
-    </div>
-    </section>
+  
+ 
+  
+  
+
+
+
+
 
     <section  className='flex flex-col gap-5 '>
     <p className='font-semibold  sm:ml-96 '>Featured</p>
@@ -289,7 +323,7 @@ className='sm:h-[200px] w-[500px] md:h-[300px] lg:h-[200px]'
 
     
 
-    </div>
+  </div>
   
     
       

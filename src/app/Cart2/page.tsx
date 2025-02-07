@@ -10,8 +10,7 @@ import {
 import Swal from "sweetalert2";
 import Image from "next/image";
 import { urlFor } from "@/sanity/lib/image";
-import { useRouter } from "next/navigation";
-
+import { useRouter } from "next/router";
 
 const CartPage = () => {
   const [cartItem, setCartItem] = useState<Product[]>([]);
